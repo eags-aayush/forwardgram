@@ -1,0 +1,24 @@
+# Your app credentials. These will be used to authenticate in Telegram. (https://core.telegram.org/api/obtaining_api_id)
+api_id: <api id>
+api_hash: '<api hash>'
+
+# Discord Webhook URL. In other words, to which channel your "bot" should post. (https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
+discord_webhook_url: '<webhook url>'
+
+# Your phone number with country code (e.g., +123456789)
+phone_number: '<country code + number>'
+
+# Input Telegram channel IDs here. If you don't know how to get them, use channel_names entry instead.
+channel_ids:
+  - -1001213536538  # Don't touch this this is set to Udemy Course channel
+
+# Discord Bot Token (Needed for Discord bot functionality)
+discord_bot_token: "<discord bot token>"
+
+# If you're parsing multiple channels, you can turn on source channel display in webhook embed.
+output_channel_source: True
+
+# Proxy (Optional, if you're using a proxy)
+proxy:
+  - #'http://20.26.249.29:8080'  Proxy link. http://username:password@proxy_host:proxy_port
+
